@@ -1,11 +1,11 @@
 Summary:	GNU Privacy Guard - secure communication and data storage
 Name:		gnupg2
-Version:	2.0.19
+Version:	2.0.20
 Release:	1
 License:	GPL v3+
 Group:		Applications/File
 Source0:	ftp://ftp.gnupg.org/GnuPG/gnupg/gnupg-%{version}.tar.bz2
-# Source0-md5:	6a8589381ca1b0c1a921e9955f42b016
+# Source0-md5:	9d18ee71bb0b10d40d1c8a393bdd7a89
 URL:		http://www.gnupg.org/
 BuildRequires:	automake
 BuildRequires:	bzip2-devel
@@ -102,7 +102,6 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/gpgsm-gencert.sh
 %attr(755,root,root) %{_bindir}/gpgv2
 %attr(755,root,root) %{_bindir}/kbxutil
-%attr(755,root,root) %{_bindir}/scdaemon
 %attr(755,root,root) %{_bindir}/watchgnupg
 %attr(755,root,root) %{_sbindir}/addgnupghome
 %attr(755,root,root) %{_sbindir}/applygnupgdefaults
@@ -112,6 +111,7 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_libexecdir}/gpg-check-pattern
 %attr(755,root,root) %{_libexecdir}/gpg-preset-passphrase
 %attr(755,root,root) %{_libexecdir}/gpg-protect-tool
+%attr(755,root,root) %{_libexecdir}/scdaemon
 
 %dir %{_datadir}/gnupg
 %{_datadir}/gnupg/com-certs.pem
