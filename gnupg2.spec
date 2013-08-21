@@ -1,11 +1,11 @@
 Summary:	GNU Privacy Guard - secure communication and data storage
 Name:		gnupg2
-Version:	2.0.20
+Version:	2.0.21
 Release:	1
 License:	GPL v3+
 Group:		Applications/File
 Source0:	ftp://ftp.gnupg.org/GnuPG/gnupg/gnupg-%{version}.tar.bz2
-# Source0-md5:	9d18ee71bb0b10d40d1c8a393bdd7a89
+# Source0-md5:	48c05f5dfe97cf21ae0ced811aaad750
 URL:		http://www.gnupg.org/
 BuildRequires:	automake
 BuildRequires:	bzip2-devel
